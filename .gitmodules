@@ -1,0 +1,6 @@
+[submodule "class01/openvino"]
+	path = class01/openvino
+	url = https://github.com/kccistc/openvino.git
+[submodule "class02/smart-factory"]
+	path = class02/smart-factory
+	url = https://github.com/kccistc/smart-factory.git
