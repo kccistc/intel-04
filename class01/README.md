@@ -45,7 +45,7 @@
 | 04 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 05 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 07 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 07 ChaChangSeop (chachangseop) | n/a | - | - | - | - | - | max5982 |
 | 08 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 09 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 10 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
