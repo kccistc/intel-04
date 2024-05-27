@@ -53,7 +53,7 @@
 | 12 JungYongJae (eolgaemi) | n/a | - | - | - | - | - | max5982 |
 | 13 KimMinJungA (kmjAA) | n/a | - | - | - | - | - | max5982 |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 15 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 15 LeeSeongWoo (jwooswoo) | n/a | - | - | - | - | - | max5982 |
 | 16 KimYoonWoo  (kyoonw) | n/a | - | - | - | - | - | mokiya |
 | 17 JiwonLee (chocomilk345) | n/a | - | - | - | - | - | mokiya |
 | 18 ChoiJaeHyeok (JH8765) | n/a | - | - | - | - | - | mokiya |
