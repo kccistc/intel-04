@@ -42,7 +42,7 @@
 | 07 ChaChangSeop (chachangseop) | n/a | - | - | - | - | litcoder |
 | 08 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 09 KimJiHun (michinnamja) | n/a | - | - | - | - | litcoder |
-| 10 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 10 ShinNaRa (sournara) | n/a | - | - | - | - | litcoder |
 | 11 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 12 JungYongJae (eolgaemi) | n/a | - | - | - | - | litcoder |
 | 13 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
