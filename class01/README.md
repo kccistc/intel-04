@@ -63,10 +63,8 @@
 | 21 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 22 LeeYunHyuk (YuNyuk) | n/a | - | - | - | - | - | mokiya |
 | 23 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 24 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 25 ParkMinHyeok (min-hyeok-Park) | n/a | - | - | - | - | - | mokiya |
 | 24 KIMKIHOON (KORIDO1234) | n/a | - | - | - | - | - | mokiya |
-| 25 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 25 ParkMinHyeok (min-hyeok-Park) | n/a | - | - | - | - | - | mokiya |
 | 26 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 27 JoSuHwan (suhwanjo) | n/a | - | - | - | - | - | mokiya |
 | 28 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
