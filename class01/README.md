@@ -39,7 +39,7 @@
 
 | 영문이름 (GitHub id)           | Team No | HW#1 | HW#2 | HW#3 | HW#4 | HW#5 | Reviewer |
 |-------------------------------|---------|------|------|------|------|------|----------|
-| 01 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 01 YouKwangGyun (Dbori12) | n/a | - | - | - | - | - | max5982 |
 | 02 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 02 KimMinJeongB (MinJeongB) | n/a | - | - | - | - | - | max5982 |
 | 03 JangHyeWon (Jang-HW) | n/a | - | - | - | - | - | max5982 |
