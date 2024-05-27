@@ -40,7 +40,7 @@
 | 05 KimGibeom (bluelitma) | n/a | - | - | - | - | - | max5982 |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 07 ChaChangSeop (chachangseop) | n/a | - | - | - | - | litcoder |
-| 08 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 08 LimJiWon (Jday4612) | n/a | - | - | - | - | litcoder |
 | 09 KimJiHun (michinnamja) | n/a | - | - | - | - | litcoder |
 | 10 ShinNaRa (sournara) | n/a | - | - | - | - | litcoder |
 | 11 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
