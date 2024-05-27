@@ -35,7 +35,7 @@
 |-------------------------------|---------|------|------|------|-------|----------|
 | 01 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 02 KimMinJeongB (MinJeongB) | n/a | - | - | - | - | litcoder |
-| 03 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 03 JangHyeWon (Jang-HW) | n/a | - | - | - | - | litcoder |
 | 04 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 05 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
