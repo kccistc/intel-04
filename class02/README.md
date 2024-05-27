@@ -38,7 +38,7 @@
 | 03 JangHyeWon (Jang-HW) | n/a | - | - | - | - | - | max5982 |
 | 04 KangDongHyuck (DH117117) | n/a | - | - | - | - | - | max5982 |
 | 05 KimGibeom (bluelitma) | n/a | - | - | - | - | - | max5982 |
-| 06 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 06 YeomJaeYoung (wodud6423) | n/a | - | - | - | - | litcoder |
 | 07 ChaChangSeop (chachangseop) | n/a | - | - | - | - | litcoder |
 | 08 LimJiWon (Jday4612) | n/a | - | - | - | - | litcoder |
 | 09 KimJiHun (michinnamja) | n/a | - | - | - | - | litcoder |
