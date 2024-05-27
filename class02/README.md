@@ -40,7 +40,7 @@
 | 05 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 07 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 08 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 08 LimJiWon (Jday4612) | n/a | - | - | - | - | litcoder |
 | 09 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 10 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 11 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |

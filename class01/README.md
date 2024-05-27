@@ -46,7 +46,7 @@
 | 05 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 07 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 08 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 08 LimJiWon (Jday4612) | n/a | - | - | - | - | - | max5982 |
 | 09 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 10 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 11 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
