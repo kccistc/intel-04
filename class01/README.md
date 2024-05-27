@@ -48,7 +48,7 @@
 | 07 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 08 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 09 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 10 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 10 ShinNara (sournara) | n/a | - | - | - | - | - | max5982 |
 | 11 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 12 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 13 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
