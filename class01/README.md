@@ -51,7 +51,7 @@
 | 10 ShinNara (sournara) | n/a | - | - | - | - | - | max5982 |
 | 11 Jowonjin (abcde) | TEAM3 | - | - | - | - | - | mokiya |
 | 12 JungYongJae (eolgaemi) | n/a | - | - | - | - | - | max5982 |
-| 13 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 13 KimMinJungA (kmjAA) | n/a | - | - | - | - | - | max5982 |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 15 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 16 KimYoonWoo  (kyoonw) | n/a | - | - | - | - | - | mokiya |
@@ -76,4 +76,3 @@
 * Team v:
 * Team a:
 * Team b:
-

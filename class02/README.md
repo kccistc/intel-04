@@ -45,7 +45,7 @@
 | 10 ShinNaRa (sournara) | n/a | - | - | - | - | litcoder |
 | 11 jowonjin (abcde) | TEAM3 | - | - | - | - | mokiya |
 | 12 JungYongJae (eolgaemi) | n/a | - | - | - | - | litcoder |
-| 13 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 13 KimMinJungA (kmjAA) | n/a | - | - | - | - | litcoder |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 15 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 16 KimYoonWoo  (KyoonW) | n/a | - | - | - | - | jerry-jaeseong-lee |
