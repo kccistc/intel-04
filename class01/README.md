@@ -64,6 +64,7 @@
 | 23 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 24 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 25 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 28 Kimseungmin (seungmimn) | n/a | - | - | - | - | - | mokiya |
 
 ### Mini Projects
 

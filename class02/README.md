@@ -58,3 +58,5 @@
 | 23 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 24 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 25 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
+| 28 Kimseungmin (seungmimn) | n/a | - | - | - | - | jerry-jaeseong-lee |
+
