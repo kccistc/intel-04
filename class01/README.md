@@ -56,7 +56,7 @@
 | 15 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 16 KimYoonWoo  (kyoonw) | n/a | - | - | - | - | - | mokiya |
 | 17 JiwonLee (chocomilk345) | n/a | - | - | - | - | - | mokiya |
-| 18 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 18 ChoiJaeHyeok (JH8765) | n/a | - | - | - | - | - | mokiya |
 | 19 KimGaHyun (hyun222) | n/a | - | - | - | - | - | mokiya |
 | 20 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 21 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
