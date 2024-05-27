@@ -37,7 +37,7 @@
 | 02 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 03 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 04 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 05 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 05 KimGibeom (bluelitma) | n/a | - | - | - | - | litcoder |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 07 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 08 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
