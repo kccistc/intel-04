@@ -40,23 +40,22 @@
 | 영문이름 (GitHub id)           | Team No | HW#1 | HW#2 | HW#3 | HW#4 | HW#5 | Reviewer |
 |-------------------------------|---------|------|------|------|------|------|----------|
 | 01 YouKwangGyun (Dbori12) | n/a | - | - | - | - | - | max5982 |
-| 02 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 02 KimMinJeongB (MinJeongB) | n/a | - | - | - | - | - | max5982 |
 | 03 JangHyeWon (Jang-HW) | n/a | - | - | - | - | - | max5982 |
-| 04 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 04 KangDongHyuck (DH117117) | n/a | - | - | - | - | - | max5982 |
 | 05 KimGibeom (bluelitma) | n/a | - | - | - | - | - | max5982 |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 07 ChaChangSeop (chachangseop) | n/a | - | - | - | - | - | max5982 |
-| 08 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 08 LimJiWon (Jday4612) | n/a | - | - | - | - | - | max5982 |
 | 09 KimJiHun (michinnamja) | n/a | - | - | - | - | - | max5982 |
-| 10 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 10 ShinNara (sournara) | n/a | - | - | - | - | - | max5982 |
 | 11 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 12 JungYongJae (eolgaemi) | n/a | - | - | - | - | - | max5982 |
 | 13 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 15 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 16 KimYoonWoo  (kyoonw) | n/a | - | - | - | - | - | mokiya |
-| 17 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 17 JiwonLee (chocomilk345) | n/a | - | - | - | - | - | mokiya |
 | 18 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 19 KimGaHyun (hyun222) | n/a | - | - | - | - | - | mokiya |
 | 20 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
@@ -67,8 +66,7 @@
 | 25 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 26 RyuJiSeung  (jiseung0630) | n/a | - | - | - | - | - | mokiya |
 | 27 JoSuHwan (suhwanjo) | n/a | - | - | - | - | - | mokiya |
-| 28 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
- 
+| 28 Kimseungmin (seungmimn) | n/a | - | - | - | - | - | mokiya |
 ### Mini Projects
 
 * Team x:

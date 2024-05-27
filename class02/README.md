@@ -33,23 +33,23 @@
 
 | 영문이름 (GitHub id)           | Team No | HW#1 | HW#2 | HW#3 | Final | Reviewer |
 |-------------------------------|---------|------|------|------|-------|----------|
-| 01 YouKwangGyun (Dbori12) | n/a | - | - | - | - | litcoder |
-| 02 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 03 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 04 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 05 KimGibeom (bluelitma) | n/a | - | - | - | - | litcoder |
+| 01 YouKwangGyun (Dbori12) | n/a | - | - | - | - | - | max5982 |
+| 02 KimMinJeongB (MinJeongB) | n/a | - | - | - | - | - | max5982 |
+| 03 JangHyeWon (Jang-HW) | n/a | - | - | - | - | - | max5982 |
+| 04 KangDongHyuck (DH117117) | n/a | - | - | - | - | - | max5982 |
+| 05 KimGibeom (bluelitma) | n/a | - | - | - | - | - | max5982 |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 07 ChaChangSeop (chachangseop) | n/a | - | - | - | - | litcoder |
-| 08 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 08 LimJiWon (Jday4612) | n/a | - | - | - | - | litcoder |
 | 09 KimJiHun (michinnamja) | n/a | - | - | - | - | litcoder |
-| 10 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 10 ShinNaRa (sournara) | n/a | - | - | - | - | litcoder |
 | 11 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 12 JungYongJae (eolgaemi) | n/a | - | - | - | - | litcoder |
 | 13 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 15 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 16 KimYoonWoo  (KyoonW) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 17 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
+| 17 JiwonLee (chocomilk345) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 18 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 19 KimGaHyun (hyun222) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 20 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
@@ -60,7 +60,7 @@
 | 25 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 26 RyuJiSeung  (jiseung0630) | n/a | - | - | - | - | - | mokiya |
 | 27 JoSuHwan (suhwanjo) | n/a | - | - | - | - | - | mokiya |
-| 28 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 28 Kimseungmin (seungmimn) | n/a | - | - | - | - | jerry-jaeseong-lee |
 
 
 
