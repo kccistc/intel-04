@@ -44,7 +44,7 @@
 | 09 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 10 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 11 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 12 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 12 JungYongJae (eolgaemi) | n/a | - | - | - | - | litcoder |
 | 13 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 15 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
