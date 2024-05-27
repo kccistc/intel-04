@@ -49,7 +49,7 @@
 | 08 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 09 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 10 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
-| 11 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 11 Jowonjin (abcde) | TEAM3 | - | - | - | - | - | mokiya |
 | 12 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 13 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
