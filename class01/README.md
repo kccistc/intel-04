@@ -64,6 +64,7 @@
 | 23 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 24 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 25 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 26 RyuJiSeung  (jiseung0630) | n/a | - | - | - | - | - | mokiya |
 
 ### Mini Projects
 
