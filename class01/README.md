@@ -61,12 +61,13 @@
 | 20 KimJeongDae (jd6286) | n/a | - | - | - | - | - | mokiya |
 | 21 KwonOhjoon (MechanicalCat7) | n/a | - | - | - | - | - | mokiya |
 | 22 LeeYunHyuk (YuNyuk) | n/a | - | - | - | - | - | mokiya |
-| 23 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 23 jeongheejung (jhj4748201) | n/a | - | - | - | - | - | mokiya |
 | 24 KIMKIHOON (KORIDO1234) | n/a | - | - | - | - | - | mokiya |
 | 25 ParkMinHyeok (min-hyeok-Park) | n/a | - | - | - | - | - | mokiya |
 | 26 RyuJiSeung  (jiseung0630) | n/a | - | - | - | - | - | mokiya |
 | 27 JoSuHwan (suhwanjo) | n/a | - | - | - | - | - | mokiya |
 | 28 Kimseungmin (seungmimn) | n/a | - | - | - | - | - | mokiya |
+
 ### Mini Projects
 
 * Team x:
