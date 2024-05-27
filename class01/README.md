@@ -46,7 +46,7 @@
 | 05 KimGibeom (bluelitma) | n/a | - | - | - | - | - | max5982 |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 07 ChaChangSeop (chachangseop) | n/a | - | - | - | - | - | max5982 |
-| 08 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 08 LimJiWon (Jday4612) | n/a | - | - | - | - | - | max5982 |
 | 09 KimJiHun (michinnamja) | n/a | - | - | - | - | - | max5982 |
 | 10 ShinNara (sournara) | n/a | - | - | - | - | - | max5982 |
 | 11 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
@@ -55,10 +55,8 @@
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 15 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 16 KimYoonWoo  (kyoonw) | n/a | - | - | - | - | - | mokiya |
-| 17 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 17 JiwonLee (chocomilk345) | n/a | - | - | - | - | - | mokiya |
 | 18 ChoiJaeHyeok (JH8765) | n/a | - | - | - | - | - | mokiya |
-| 19 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 18 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 19 KimGaHyun (hyun222) | n/a | - | - | - | - | - | mokiya |
 | 20 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 21 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
