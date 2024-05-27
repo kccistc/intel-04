@@ -39,7 +39,7 @@
 | 04 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 05 KimGibeom (bluelitma) | n/a | - | - | - | - | litcoder |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 07 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 07 ChaChangSeop (chachangseop) | n/a | - | - | - | - | litcoder |
 | 08 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 09 KimJiHun (michinnamja) | n/a | - | - | - | - | litcoder |
 | 10 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
