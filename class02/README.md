@@ -33,11 +33,11 @@
 
 | 영문이름 (GitHub id)           | Team No | HW#1 | HW#2 | HW#3 | Final | Reviewer |
 |-------------------------------|---------|------|------|------|-------|----------|
-| 01 YouKwangGyun (Dbori12) | n/a | - | - | - | - | litcoder |
-| 02 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 03 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 04 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 05 KimGibeom (bluelitma) | n/a | - | - | - | - | litcoder |
+| 01 YouKwangGyun (Dbori12) | n/a | - | - | - | - | - | max5982 |
+| 02 KimMinJeongB (MinJeongB) | n/a | - | - | - | - | - | max5982 |
+| 03 JangHyeWon (Jang-HW) | n/a | - | - | - | - | - | max5982 |
+| 04 KangDongHyuck (DH117117) | n/a | - | - | - | - | - | max5982 |
+| 05 KimGibeom (bluelitma) | n/a | - | - | - | - | - | max5982 |
 | 06 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 07 ChaChangSeop (chachangseop) | n/a | - | - | - | - | litcoder |
 | 08 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
