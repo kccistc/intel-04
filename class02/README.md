@@ -57,7 +57,7 @@
 | 22 LeeYunHyuk (YuNyuk) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 23 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 24 kimkihoon (korido1234) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 25 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
+| 25 ParkMinHyeok (min-hyeok-Park) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 26 RyuJiSeung  (jiseung0630) | n/a | - | - | - | - | - | mokiya |
 | 27 JoSuHwan (suhwanjo) | n/a | - | - | - | - | - | mokiya |
 | 28 Kimseungmin (seungmimn) | n/a | - | - | - | - | jerry-jaeseong-lee |
