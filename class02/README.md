@@ -58,3 +58,5 @@
 | 23 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 24 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 25 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
+| 26 RyuJiSeung  (jiseung0630) | n/a | - | - | - | - | - | mokiya |
+
