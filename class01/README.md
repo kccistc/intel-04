@@ -65,7 +65,7 @@
 | 23 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
 | 24 KIMKIHOON (KORIDO1234) | n/a | - | - | - | - | - | mokiya |
 | 25 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-| 26 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 26 RyuJiSeung  (jiseung0630) | n/a | - | - | - | - | - | mokiya |
 | 27 JoSuHwan (suhwanjo) | n/a | - | - | - | - | - | mokiya |
 | 28 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
  

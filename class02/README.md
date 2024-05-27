@@ -58,13 +58,9 @@
 | 23 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 24 kimkihoon (korido1234) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 25 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 26 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 26 RyuJiSeung  (jiseung0630) | n/a | - | - | - | - | - | mokiya |
 | 27 JoSuHwan (suhwanjo) | n/a | - | - | - | - | - | mokiya |
 | 28 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
-
-
-
-
 
 
 
