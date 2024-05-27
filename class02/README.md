@@ -52,7 +52,7 @@
 | 17 JiwonLee (chocomilk345) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 18 ChoiJaeHyeok (JH8765) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 19 KimGaHyun (hyun222) | n/a | - | - | - | - | jerry-jaeseong-lee |
-| 20 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
+| 20 KimJeongDae (jd6286) | n/a | - | - | - | - | - | mokiya |
 | 21 KwonOhjoon (MechanicalCat7) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 22 LeeYunHyuk (YuNyuk) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 23 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |

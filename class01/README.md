@@ -58,7 +58,7 @@
 | 17 JiwonLee (chocomilk345) | n/a | - | - | - | - | - | mokiya |
 | 18 ChoiJaeHyeok (JH8765) | n/a | - | - | - | - | - | mokiya |
 | 19 KimGaHyun (hyun222) | n/a | - | - | - | - | - | mokiya |
-| 20 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
+| 20 KimJeongDae (jd6286) | n/a | - | - | - | - | - | mokiya |
 | 21 KwonOhjoon (MechanicalCat7) | n/a | - | - | - | - | - | mokiya |
 | 22 LeeYunHyuk (YuNyuk) | n/a | - | - | - | - | - | mokiya |
 | 23 KimYoungHee (abcde) | n/a | - | - | - | - | - | mokiya |
