@@ -49,7 +49,7 @@
 | 08 LimJiWon (Jday4612) | n/a | - | - | - | - | - | max5982 |
 | 09 KimJiHun (michinnamja) | n/a | - | - | - | - | - | max5982 |
 | 10 ShinNara (sournara) | n/a | - | - | - | - | - | max5982 |
-| 11 Jowonjin (abcde) | TEAM3 | - | - | - | - | - | mokiya |
+| 11 Jowonjin (jowonjin96) | n/a | - | - | - | - | - | mokiya |
 | 12 JungYongJae (eolgaemi) | n/a | - | - | - | - | - | max5982 |
 | 13 KimMinJungA (kmjAA) | n/a | - | - | - | - | - | max5982 |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
