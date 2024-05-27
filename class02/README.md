@@ -45,7 +45,7 @@
 | 10 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 11 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 12 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
-| 13 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 13 KimMinJungA (kmjAA) | n/a | - | - | - | - | litcoder |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 15 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 16 KimYoungHee (abcde) | n/a | - | - | - | - | jerry-jaeseong-lee |
