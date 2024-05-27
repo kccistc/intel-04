@@ -43,7 +43,7 @@
 | 08 LimJiWon (Jday4612) | n/a | - | - | - | - | litcoder |
 | 09 KimJiHun (michinnamja) | n/a | - | - | - | - | litcoder |
 | 10 ShinNaRa (sournara) | n/a | - | - | - | - | litcoder |
-| 11 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 11 jowonjin (abcde) | TEAM3 | - | - | - | - | mokiya |
 | 12 JungYongJae (eolgaemi) | n/a | - | - | - | - | litcoder |
 | 13 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 14 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
