@@ -46,7 +46,7 @@
 | 11 jowonjin (jowonjin96) | n/a | - | - | - | - | mokiya |
 | 12 JungYongJae (eolgaemi) | n/a | - | - | - | - | litcoder |
 | 13 KimMinJungA (kmjAA) | n/a | - | - | - | - | litcoder |
-| 14 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 14 HeoChanUk (HeoChanUk) | n/a | - | - | - | - | litcoder |
 | 15 LeeSeongWoo (jwooswoo) | n/a | - | - | - | - | litcoder |
 | 16 KimYoonWoo  (KyoonW) | n/a | - | - | - | - | jerry-jaeseong-lee |
 | 17 JiwonLee (chocomilk345) | n/a | - | - | - | - | jerry-jaeseong-lee |
