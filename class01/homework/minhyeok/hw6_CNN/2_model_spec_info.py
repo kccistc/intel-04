@@ -25,5 +25,6 @@ plt.plot(range(len(val_accB)),val_accB,label = "sigmoid (Batch)")
 plt.plot(range(len(val_accL)),val_accL,label = "relu")
 plt.grid()
 plt.legend()
-plt.show()
+
 plt.savefig("Summary.png")
+plt.show()
