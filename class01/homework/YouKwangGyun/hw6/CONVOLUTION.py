@@ -1,0 +1,73 @@
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+
+img = cv2.imread('apple.jpg', cv2.IMREAD_COLOR)
+Identity_kernel = np.array([[0, 0, 0],[0, 1, 0], [0, 0, 0]])
+Ridge1_kernel = np.array([[0, -1, 0],[-1, 4, -1], [0, -1, 0]])
+Ridge2_kernel = np.array([[-1, -1, -1],[-1, 8, -1], [-1, -1, -1]])
+Sharpen_kernel = np.array([[0, -1, 0],[-1, 5, -1], [0, -1, 0]])
+Box_blur_kernel = np.array([[1, 1, 1],[1, 1, 1], [1, 1, 1]])*(1/9)
+Gaussian_blur_3_kernel = np.array([[1, 2, 1],[2, 4, 2], [1, 2, 1]])*(1/16)
+Gaussian_blur_5_kernel = np.array([[1, 4, 6, 4, 1],[4, 16, 24, 16, 4], [6, 24, 36, 24, 6], [4, 16, 24, 16, 4], [1, 4, 6, 4, 1]])*(1/256)
+
+Identity = cv2.filter2D(img, -1, Identity_kernel)
+Ridge1 = cv2.filter2D(img, -1, Ridge1_kernel)
+Ridge2 = cv2.filter2D(img, -1, Ridge2_kernel)
+Sharpen= cv2.filter2D(img, -1, Sharpen_kernel)
+Box_blur = cv2.filter2D(img, -1, Box_blur_kernel)
+Gaussian_blur_3 = cv2.filter2D(img, -1, Gaussian_blur_3_kernel)
+Gaussian_blur_5 = cv2.filter2D(img, -1, Gaussian_blur_5_kernel)
+
+fig = plt.figure(figsize=(50, 3))
+plt.subplot(1,7,1)
+plt.imshow(Identity[:,:,::-1])
+plt.title('Identity')
+plt.xticks([])
+plt.yticks([])
+
+plt.subplot(1,7,2)
+plt.imshow(Ridge1)
+plt.title('Ridge1')
+plt.xticks([])
+plt.yticks([])
+
+plt.subplot(1,7,3)
+plt.imshow(Ridge2)
+plt.title('Ridge2')
+plt.xticks([])
+plt.yticks([])
+
+plt.subplot(1,7,4)
+plt.imshow(Sharpen[:,:,::-1])
+plt.title('Sharpen')
+plt.xticks([])
+plt.yticks([])
+
+plt.subplot(1,7,5)
+plt.imshow(Box_blur[:,:,::-1])
+plt.title('Box_blur')
+plt.xticks([])
+plt.yticks([])
+
+plt.subplot(1,7,6)
+plt.imshow(Gaussian_blur_3[:,:,::-1])
+plt.title('Gaussian_blur_3')
+plt.xticks([])
+plt.yticks([])
+
+plt.subplot(1,7,7)
+plt.imshow(Gaussian_blur_5[:,:,::-1])
+plt.title('Gaussian_blur_5')
+plt.xticks([])
+plt.yticks([])
+plt.show()
+
+#cv2.imshow('Identity', Identity)
+#cv2.imshow('Ridge1', Ridge1)
+#cv2.imshow('Ridge2', Ridge2)
+#cv2.imshow('Sharpen', Sharpen)
+#cv2.imshow('Box_blur', Box_blur)
+#cv2.imshow('Gaussian_blur_3', Gaussian_blur_3)
+#cv2.imshow('Gaussian_blur_5', Gaussian_blur_5)
+#cv2.waitKey(0)
