@@ -1,6 +1,7 @@
-# Project ABCD
+# Project "진실의 눈"
 
 * (간략히 프로젝트를 설명하고, 최종 목표가 무엇인지에 대해 기술)
+카메라에 모터를 하나 붙이고 Object detection, mono depth를 이용해 가까운 사람에게 카메라가 향하도록
 
 ## High Level Design
 
