@@ -72,7 +72,7 @@
 
 ### Mini Projects
 
-* Team 01:
+* Team 01: ["지하철 역내 시각장애인,노약자 길안내 카메라"](mini-project/01_KDH_JHW/README.md)
 * Team 02: ["음성 인식 및 응답 AI 시스템"](mini-project/02_kim_yeom/README.md)
 * Team 03:
 * Team 04: ["Estimating the gaze of cigarette purchasing customers"](mini-project/04_Mini_Project_JWJ_JYJ/README.md)
