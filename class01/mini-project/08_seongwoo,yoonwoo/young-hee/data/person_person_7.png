@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>storage.openvinotoolkit.org</title>
+  <link rel="stylesheet" href="/assets/theme.css">
+</head>
+<body>
+  <main id="main" class="o-content sidebar-right">
+    <div id="content" class="clearfix container o-container" style="display: none;">
+      <div id="navigation"></div>
+      <table id="list"></table>
+    </div>
+  </main>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var BUCKET_URL = 'https://storage.openvinotoolkit.org';
+  var FILETREE_URL = 'https://storage.openvinotoolkit.org/filetree.json';
+  // var S3B_ROOT_DIR = 'SUBDIR_L1/SUBDIR_L2/';
+  // var S3B_SORT = 'NEW2OLD';
+  var EXCLUDE_FILE = [/^(.*\/)?index.html$/, /^(.*\/)?list.js$/, '/assets'];  // change to array to exclude multiple files, regexp also supported e.g. /^(.*\/)?index.html$/ to exclude all index.html
+  // var AUTO_TITLE = true;
+</script>
+<script type="text/javascript" src="/assets/list.js"></script>
+
+</body>
+</html>
