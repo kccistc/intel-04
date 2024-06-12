@@ -73,7 +73,7 @@
 ### Mini Projects
 
 * Team 01:
-* Team 02:
+* Team 02: ["음성 인식 및 응답 AI 시스템"](mini-project/02_kim_yeom/README.md)
 * Team 03:
 * Team 04: ["Estimating the gaze of cigarette purchasing customers"](mini-project/04_Mini_Project_JWJ_JYJ/README.md)
 * Team 05:
