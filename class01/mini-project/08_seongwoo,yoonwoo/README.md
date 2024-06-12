@@ -20,6 +20,12 @@ monodepth를 이용하여 웹캠으로 가까운 사람을 탐지하고, 센터 
 OpenVINO의 Person Tracking, Monodepth 사용
 
 
+## System Configuration Chart
+
+
+![image](https://github.com/kccistc/intel-04/assets/170689181/315331e6-b79c-49e4-8156-aea03b1ae50e)
+
+
 
 ## Steps to run
 
