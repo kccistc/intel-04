@@ -73,7 +73,7 @@
 * Team 01:
 * Team 02:
 * Team 03:
-* Team 04: [Subject: "Estimating the gaze of cigarette purchasing customers"] (class01/mini-project/04_Mini_Project_JWJ_JYJ/README.md)
+* Team 04: [Subject: "Estimating the gaze of cigarette purchasing customers"] (mini-project/04_Mini_Project_JWJ_JYJ/README.md)
 * Team 05:
 * Team 06:
 * Team 07:
