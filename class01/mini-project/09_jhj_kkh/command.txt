@@ -1,0 +1,1 @@
+python handwritten_text_recognition_demo.py   -d CPU   -i test_image/test8.png   -m model/handwritten-english-recognition-0001.xml   -cl model/gnhk.txt   -o recognized_text.txt
