@@ -31,42 +31,44 @@
 
 ### 제출현황
 
-* HW#1 :
-* HW#2 :
-* HW#3 :
-* HW#4 :
-* HW#5 :
+* HW#1 : [[Class01 HW#1] Github Issue 실습 - <내이름>](https://github.com/kccistc/intel-04/issues/1)
+* HW#2 : [[Class01 HW#2] Github PR 실습 - <내이름>](https://github.com/kccistc/intel-04/issues/2)
+* HW#3 : [[Class01 HW#3] Github PR 실습 - Table 수정](https://github.com/kccistc/intel-04/issues/3)
+* HW#4 : 
+* HW#5 : [[Class01 HW#5] Perceptron & ANN 실습 #4](https://github.com/kccistc/intel-04/issues/4)
+* HW#6 : [[Class01 HW#6] CNN 실습 #5](https://github.com/kccistc/intel-04/issues/5)
+* HW#7 : [[Class01 HW#7] python 과제 및 math 실습 #6](https://github.com/kccistc/intel-04/issues/6)
 
-| 영문이름 (GitHub id)           | Team No | HW#1 | HW#2 | HW#3 | HW#4 | HW#5 | Reviewer |
-|-------------------------------|---------|------|------|------|------|------|----------|
-| 01 YouKwangGyun (Dbori12) | n/a | - | - | - | - | - | max5982 |
-| 02 KimMinJeongB (MinJeongB) | n/a | - | - | - | - | - | max5982 |
-| 03 JangHyeWon (Jang-HW) | n/a | - | - | - | - | - | max5982 |
-| 04 KangDongHyuck (DH117117) | n/a | - | - | - | - | - | max5982 |
-| 05 KimGibeom (bluelitma) | n/a | - | - | - | - | - | max5982 |
-| 06 YeomJaeYoung (wodud6423) | n/a | - | - | - | - | - | max5982 |
-| 07 ChaChangSeop (chachangseop) | n/a | - | - | - | - | - | max5982 |
-| 08 LimJiWon (Jday4612) | n/a | - | - | - | - | - | max5982 |
-| 09 KimJiHun (michinnamja) | n/a | - | - | - | - | - | max5982 |
-| 10 ShinNara (sournara) | n/a | - | - | - | - | - | max5982 |
-| 11 Jowonjin (jowonjin96) | n/a | - | - | - | - | - | mokiya |
-| 12 JungYongJae (eolgaemi) | n/a | - | - | - | - | - | max5982 |
-| 13 KimMinJungA (kmjAA) | n/a | - | - | - | - | - | max5982 |
-| 14 HeoChanUk (HeoChanUk) | n/a | - | - | - | - | - | max5982 |
-| 15 LeeSeongWoo (jwooswoo) | n/a | - | - | - | - | - | max5982 |
-| 16 KimYoonWoo  (kyoonw) | n/a | - | - | - | - | - | mokiya |
-| 17 JiwonLee (chocomilk345) | n/a | - | - | - | - | - | mokiya |
-| 18 ChoiJaeHyeok (JH8765) | n/a | - | - | - | - | - | mokiya |
-| 19 KimGaHyun (hyun222) | n/a | - | - | - | - | - | mokiya |
-| 20 KimJeongDae (jd6286) | n/a | - | - | - | - | - | mokiya |
-| 21 KwonOhjoon (MechanicalCat7) | n/a | - | - | - | - | - | mokiya |
-| 22 LeeYunHyuk (YuNyuk) | n/a | - | - | - | - | - | mokiya |
-| 23 jeongheejung (jhj4748201) | n/a | - | - | - | - | - | mokiya |
-| 24 KIMKIHOON (KORIDO1234) | n/a | - | - | - | - | - | mokiya |
-| 25 ParkMinHyeok (min-hyeok-Park) | n/a | - | - | - | - | - | mokiya |
-| 26 RyuJiSeung  (jiseung0630) | n/a | - | - | - | - | - | mokiya |
-| 27 JoSuHwan (suhwanjo) | n/a | - | - | - | - | - | mokiya |
-| 28 Kimseungmin (seungmimn) | n/a | - | - | - | - | - | mokiya |
+| 영문이름 (GitHub id)           | Team No | HW#1 | HW#2 | HW#3 | HW#4 | HW#5 | HW#6 | HW#7 | Reviewer |
+|-------------------------------|---------|------|------|------|------|------|------|------|----------|
+| 01 YouKwangGyun (Dbori12) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 02 KimMinJeongB (MinJeongB) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 03 JangHyeWon (Jang-HW) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 04 KangDongHyuck (DH117117) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 05 KimGibeom (bluelitma) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 06 YeomJaeYoung (wodud6423) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 07 ChaChangSeop (chachangseop) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 08 LimJiWon (Jday4612) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 09 KimJiHun (michinnamja) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 10 ShinNara (sournara) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 11 Jowonjin (jowonjin96) | n/a | o | o | o | o | o | o | - | justinkimceo |
+| 12 JungYongJae (eolgaemi) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 13 KimMinJungA (kmjAA) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 14 HeoChanUk (HeoChanUk) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 15 LeeSeongWoo (jwooswoo) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 16 KimYoonWoo  (kyoonw) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 17 JiwonLee (chocomilk345) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 18 ChoiJaeHyeok (JH8765) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 19 KimGaHyun (hyun222) | n/a | o | o | o | - | - | - | - | justinkimceo |
+| 20 KimJeongDae (jd6286) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 21 KwonOhjoon (MechanicalCat7) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 22 LeeYunHyuk (YuNyuk) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 23 jeongheejung (jhj4748201) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 24 KIMKIHOON (KORIDO1234) | n/a |  o | o | o | o | o | o | - | justinkimceo |
+| 25 ParkMinHyeok (min-hyeok-Park) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 26 RyuJiSeung  (jiseung0630) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 27 JoSuHwan (suhwanjo) | n/a | o | o | o | o | o | o | o | justinkimceo |
+| 28 Kimseungmin (seungmimn) | n/a | o | o | o | o | o | o | o | justinkimceo |
 
 ### Mini Projects
 
