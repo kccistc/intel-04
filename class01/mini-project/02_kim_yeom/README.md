@@ -1,4 +1,6 @@
-![image](https://github.com/kccistc/intel-04/assets/127078552/e56a1c14-40fe-40bf-833c-dd0b85b4574b)# 개요 및 소개
+![image](https://github.com/kccistc/intel-04/assets/127078552/e56a1c14-40fe-40bf-833c-dd0b85b4574b)
+
+# 개요 및 소개
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Dongle&size=60&pause=1000&color=F249F7&background=FFFFFF8D&repeat=false&random=false&width=800&lines=+%EC%9D%8C%EC%84%B1+%EC%9D%B8%EC%8B%9D%EB%B0%8F+%EC%9D%8C%EC%84%B1+%EB%8C%80%EB%8B%B5+AI%2C+%EB%A7%90%ED%95%98%EB%8A%94+GPT)](https://git.io/typing-svg)
 
@@ -108,6 +110,8 @@
 <br>   
 
 - ### 마이크 입력
+[오디오 파일 듣기](./recording_input_before.wav)
+
 
 - ### 입력 음성 -> 텍스트
 ![image](https://github.com/kccistc/intel-04/assets/127078552/d2233a67-bf68-41ba-ac7c-1f8216234b15)
@@ -120,6 +124,7 @@
 
 
 - ### 응답 텍스트-> 음성
+[오디오 파일 듣기](./audio_before.wav)
 
 <br>   
 
@@ -128,17 +133,21 @@
 <br>   
 
 - ### 마이크 입력
-
+[오디오 파일 듣기](./recording_input_after.wav)
 
 - ### 입력 음성 -> 텍스트
+
 ![image](https://github.com/kccistc/intel-04/assets/127078552/e13281c8-dd5a-4b3a-bcb4-e62bd396c2fa)
 
 
 - ### GPT 2 응답
+
 ![image](https://github.com/kccistc/intel-04/assets/127078552/98424575-6fb1-4452-9a14-10043c383117)
 
 
 - ### 응답 텍스트-> 음성
+
+[오디오 파일 듣기](./audio_after.wav)
 
 <br>   
 
