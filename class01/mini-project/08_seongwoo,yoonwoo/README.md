@@ -5,17 +5,16 @@
 ## Project Name & Purpose
 
   
-Person tracking으로 사람(객체)을 탐지하고, Mono depth를 이용해 가장 가까운 사람을 찾는 프로젝트 "황야의 무법자 - 영희"
+Person tracking으로 사람(객체)을 탐지하고, Monodepth를 이용해 가장 가까운 사람을 찾는 프로젝트 "황야의 무법자 - 영희"
 
 
 monodepth를 이용하여 웹캠으로 가까운 사람을 탐지하고, 센터 좌표를 이용해 어떠한 객체가 가장 앞서있는지 근접도를 판별하는 것이 최종 목표이다.
 
 
+## Used Model
 
+* Person Tracking, Monodepth 사용
 
-## High Level Design
-
-* (프로젝트 아키텍쳐 기술, 전반적인 diagram 으로 설명을 권장)
 
 ## Clone code
 
@@ -63,8 +62,9 @@ python demo.py -i xxx -m yyy -d zzz
 
 * (프로젝트 실행 화면 캡쳐)
 
-![./result.jpg](./result.jpg)
+![image](https://github.com/kccistc/intel-04/assets/170689181/7dd53fa5-ed79-487f-9d0d-4503de5b902e)
+
 
 ## Appendix
 
-* (참고 자료 및 알아두어야할 사항들 기술)
+* 사진 출처 : 넷플릭스 오리지널 시리즈 '오징어 게임'. 넷플릭스 제공
