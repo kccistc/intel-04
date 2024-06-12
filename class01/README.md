@@ -77,7 +77,7 @@
 * Team 03:
 * Team 04: ["Estimating the gaze of cigarette purchasing customers"](mini-project/04_Mini_Project_JWJ_JYJ/README.md)
 * Team 05:
-* Team 06:
+* Team 06: ["GestureTalk"](mini-project/06_LJW_CCS/README.md)
 * Team 07:
 * Team 08: ["황야의 무법자 - 영희"](mini-project/08_seongwoo,yoonwoo/README.md)
 * Team 09:
