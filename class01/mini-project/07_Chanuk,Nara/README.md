@@ -27,8 +27,7 @@ python3 CountingCars2.py
 ```
 
 ## Output
-
-* [./result.png]
+![Uploading image.png…]()
 
 
 ## Appendix
