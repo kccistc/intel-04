@@ -78,7 +78,7 @@
 * Team 04: ["Estimating the gaze of cigarette purchasing customers"](mini-project/04_Mini_Project_JWJ_JYJ/README.md)
 * Team 05:
 * Team 06: ["GestureTalk"](mini-project/06_LJW_CCS/README.md)
-* Team 07: ["CountingCars"]/(mini-project/07_Chanuk,Nara/README.md)
+* Team 07: ["CountingCars"](mini-project/07_Chanuk,Nara/README.md)
 * Team 08: ["황야의 무법자 - 영희"](mini-project/08_seongwoo,yoonwoo/README.md)
 * Team 09:
 * Team 10: ["똥손 금손"](mini-project/team10/README.md)
