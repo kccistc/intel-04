@@ -13,7 +13,7 @@ monodepth를 이용하여 웹캠으로 가까운 사람을 탐지하고, 센터 
 
 ## Used Model
 
-* Person Tracking, Monodepth 사용
+* OpenVINO의 Person Tracking, Monodepth 사용
 
 
 ## Clone code
