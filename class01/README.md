@@ -79,7 +79,7 @@
 * Team 05:
 * Team 06:
 * Team 07:
-* Team 08:
+* Team 08: ["황야의 무법자 - 영희"](mini-project/08_seongwoo,yoonwoo/README.md)
 * Team 09:
 * Team 10: ["똥손 금손"](mini-project/team10/README.md)
 * Team 11:
