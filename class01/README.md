@@ -81,6 +81,6 @@
 * Team 07:
 * Team 08:
 * Team 09:
-* Team 10:
+* Team 10: ["똥손 금손"](mini-project/team10/README.md)
 * Team 11:
 * Team 12:
