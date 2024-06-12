@@ -1,59 +1,35 @@
 # Project Counting Cars~
 
-* (간략히 프로젝트를 설명하고, 최종 목표가 무엇인지에 대해 기술)
-이 프로젝트는 고속도로 통행량을 보다 더 정확히 측정하기 위해 지나가는 자동차들을 세는 것이다.
+* 이 프로젝트는 고속도로 CCTV 영상 내 교통량을 자동으로 측정하는 시스템이다.
 
-## High Level Design
+## Architecture
 
-* (프로젝트 아키텍쳐 기술, 전반적인 diagram 으로 설명을 권장)
+* 고속도로에 차 지나다니는 동영상 입력 -> YOLOv8 이용한 차량 tracking -> 가상의 선을 지나면 차량 Count -> 차종 별 Count 수 집계
 
-## Clone code
+## Members
 
-* (각 팀에서 프로젝트를 위해 생성한 repository에 대한 code clone 방법에 대해서 기술)
+* 신나라
+* 허찬욱
 
-```shell
-git clone https://github.com/xxx/yyy/zzz
-```
+## Used
 
-## Prerequite
-
-* (프로젝트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
-
-```shell
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-## Steps to build
-
-* (프로젝트를 실행을 위해 빌드 절차 기술)
-
-```shell
-cd ~/xxxx
-source .venv/bin/activate
-
-make
-make install
-```
+* YOLOv8, OpenVINO의 Person-Counting-Webcam
 
 ## Steps to run
 
-* (프로젝트 실행방법에 대해서 기술, 특별한 사용방법이 있다면 같이 기술)
 
 ```shell
 cd ~/xxxx
 source .venv/bin/activate
 
-cd /path/to/repo/xxx/
-python demo.py -i xxx -m yyy -d zzz
+cd /intel-04/class01/mini-project/07_Chanuk,Nara/mini_prj_0611
+python3 CountingCars2.py
 ```
 
 ## Output
 
-* (프로젝트 실행 화면 캡쳐)
+* [./result.png]
 
-![./result.jpg](./result.jpg)
 
 ## Appendix
 
