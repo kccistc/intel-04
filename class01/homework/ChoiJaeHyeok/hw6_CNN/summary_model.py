@@ -1,0 +1,32 @@
+import pickle
+import numpy as np
+import matplotlib.pyplot as plt
+
+historyNoBatch = pickle.load(open('./historyNoBatch', "rb"))
+historyBatch = pickle.load(open('./historyBatch', "rb"))
+historyRelu = pickle.load(open('./historyRelu', "rb"))
+
+val_accNB = historyNoBatch["val_accuracy"]
+val_lossNB= historyNoBatch["val_loss"]
+val_lossB = historyBatch["val_loss"]
+val_accB = historyBatch["val_accuracy"]
+val_lossR = historyRelu["val_loss"]
+val_accR = historyRelu["val_accuracy"]
+
+plt.subplot(1,2,1)
+plt.title('Validation Loss')
+plt.plot(range(len(val_lossNB)),val_lossNB,label = "sigmoid (No Batch)")
+plt.plot(range(len(val_lossB)),val_lossB,label = "sigmoid (Batch)")
+plt.plot(range(len(val_lossR)),val_lossR,label = "relu")
+plt.grid()
+plt.legend()
+plt.subplot(1,2,2)
+plt.title('Validation Accuracy')
+plt.plot(range(len(val_accNB)),val_accNB,label = "sigmoid (No Batch)")
+plt.plot(range(len(val_accB)),val_accB,label = "sigmoid (Batch)")
+plt.plot(range(len(val_accR)),val_accR,label = "relu")
+plt.grid()
+plt.legend()
+plt.savefig("Summary.png")
+plt.show()
+
