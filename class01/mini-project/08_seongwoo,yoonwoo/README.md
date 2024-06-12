@@ -1,10 +1,16 @@
-## Project "황야의 무법자"
+## Member
+김윤우, 이성우
+
+
+## Project Name & Purpose
 
   
 Person tracking으로 사람(객체)을 탐지하고, Mono depth를 이용해 가장 가까운 사람을 찾는 프로젝트 "황야의 무법자 - 영희"
 
 
 monodepth를 이용하여 웹캠(진실의 눈)으로 가까운 사람을 탐지하고, 센터 좌표를 이용해 어떠한 객체가 앞서있는지 근접도를 판별하는 것이 최종 목표이다.
+
+
 
 
 ## High Level Design
