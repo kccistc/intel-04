@@ -17,19 +17,17 @@
 
 ## Steps to run
 
-
 ```shell
 cd ~/xxxx
 source .venv/bin/activate
 
-cd /intel-04/class01/mini-project/07_Chanuk,Nara/mini_prj_0611
+cd /intel-04/class01/mini-project/07_Chanuk,Nara/mini_prj_chanuk,nara
 python3 CountingCars2.py
 ```
 
 ## Output
-![Uploading image.png…]()
+![image](https://github.com/kccistc/intel-04/assets/169637084/8e2a8940-6e5a-4680-b1d5-4602520cd6ca)
 
 
 ## Appendix
-
 * (참고 자료 및 알아두어야할 사항들 기술)
