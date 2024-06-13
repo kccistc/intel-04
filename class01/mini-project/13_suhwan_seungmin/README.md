@@ -1,6 +1,6 @@
-# Project SmartScanner
+# Project 요약해VOCA
 
-* Open Model Zoo의 여러 pre-trained 모델을 활용하여 사용자가 업로드한 문서의 텍스트를 인식(OCR), 요약(LLM), 음성 변환(TTS)하는 애플리케이션을 개발하는 것을 목표로 합니다. 이를 통해 사용자는 문서의 핵심 내용을 빠르게 파악하고 음성으로 들을 수 있는 편리한 솔루션을 제공합니다.
+* Open Model Zoo와 다른 여러 pre-trained 모델을 활용하여 사용자가 업로드한 문서의 텍스트를 인식(OCR), 요약(LLM), 음성 변환(TTS)하는 애플리케이션을 개발하는 것을 목표로 합니다. 이를 통해 사용자는 문서의 핵심 내용을 빠르게 파악하고 음성으로 들을 수 있는 편리한 솔루션을 제공합니다.
 
 ## High Level Design
 
@@ -14,56 +14,134 @@
 
 ### 다이어그램
 
+![Screenshot_from_2024-06-13_09-26-59](https://github.com/suhwanjo/Intel-Edge-AI-mini-project/assets/112834460/6a83560e-423b-4eb2-bc18-f8c9db55310f)
+
 ## Clone code
 
-* (각 팀에서 프로젝트를 위해 생성한 repository에 대한 code clone 방법에 대해서 기술)
-
 ```shell
-git clone https://github.com/xxx/yyy/zzz
+git clone https://github.com/suhwanjo/Intel-Edge-AI-mini-project.git
 ```
 
 ## Prerequite
 
-* (프로잭트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
-
 ```shell
+cd ~/Intel-Edge-AI-mini-project/cd mini_project2
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-```
-
-## Steps to build
-
-* (프로젝트를 실행을 위해 빌드 절차 기술)
-
-```shell
-cd ~/xxxx
-source .venv/bin/activate
-
-make
-make install
+omz_downloader --list models_tts.lst
+omz_downloader --list models_ocr.lst
 ```
 
 ## Steps to run
 
-* (프로젝트 실행방법에 대해서 기술, 특별한 사용방법이 있다면 같이 기술)
-
 ```shell
-cd ~/xxxx
+cd ~/Intel-Edge-AI-mini-project/mini_project2
 source .venv/bin/activate
-
-cd /path/to/repo/xxx/
-python demo.py -i xxx -m yyy -d zzz
+python3 app.py
 ```
 
 ## Output
 
-* (프로젝트 실행 화면 캡쳐)
-
-![./result.jpg](./result.jpg)
-
-## Appendix
-
-* (참고 자료 및 알아두어야할 사항들 기술)
-
-
+![Screenshot from 2024-06-13 09-35-08](https://github.com/suhwanjo/Intel-Edge-AI-mini-project/assets/112834460/f249ba38-c559-41f5-abab-61ea4af6ce35)
+![Screenshot from 2024-06-13 09-37-32](https://github.com/suhwanjo/Intel-Edge-AI-mini-project/assets/112834460/9ec4a2f1-94b2-4263-aa8e-e8ed0c442488)
+```shell
+apple
+is
+embracing
+generative
+ai
+buzzy
+form
+of
+intelligence
+that
+can
+provide
+and
+thorough
+to
+the
+companys
+with
+a
+essentially
+turning
+it
+into
+an
+iphone
+chatbot
+this
+siri
+to
+perform
+specific
+such
+as
+recalling
+a
+ago
+on
+the
+or
+answering
+the
+weather
+the
+news
+or
+it
+can
+perform
+more
+advanced
+as
+answering
+a
+is
+landing
+by
+analyzing
+information
+sent
+in
+an
+email
+over
+it
+learn
+the
+preferences
+and
+respond
+this
+is
+not
+some
+competitors
+have
+already
+introduced
+in
+generative
+siri
+will
+also
+automatically
+and
+to
+users
+based
+on
+audio
+and
+natural
+language
+with
+images
+and
+contextual
+cues
+```
+![Screenshot from 2024-06-13 09-38-27](https://github.com/suhwanjo/Intel-Edge-AI-mini-project/assets/112834460/9d02c82a-7521-4690-b9f2-fa60d8cba2bb)
