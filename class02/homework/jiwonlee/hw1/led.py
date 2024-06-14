@@ -33,6 +33,8 @@ while True:
 
     elif user_input == '8':
         ctrl.push_actuator(2)
-
+        
     elif user_input == 'q':
-    	ctrl.close() 
+        break
+
+ctrl.close() 
