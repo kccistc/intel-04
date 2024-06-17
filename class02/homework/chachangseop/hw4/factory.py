@@ -29,7 +29,7 @@ def thread_cam1(q):
         if detected is None:
             continue
         q.put(("VIDEO:Cam1 detected", detected))
-
+        q.put(("PUSH", 1))
     cap.release()
     q.put(('DONE', None))
 
