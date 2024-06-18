@@ -148,7 +148,7 @@ $ find ./ -iname *.bin|xargs ls -l
 
 "비보호 좌회전 및 유턴 안전 보조 시스템"
 
-Members
+* Members
 | Name | Role |
 |----|----|
 | 김승민 | Project lead, UI design  |
@@ -156,5 +156,5 @@ Members
 | 유지승 | AI modeling, Hardware Setup   |
 | 조수환 | AI modeling, System integration |
 
-Project Github : https://github.com/suhwanjo/Intel-Eged-AI-Project.git
-발표자료 : https://github.com/wodud6423/Intel-Edge-AI-/tree/main
+* Project Github : https://github.com/suhwanjo/Intel-Eged-AI-Project.git
+* 발표자료 : https://github.com/wodud6423/Intel-Edge-AI-/tree/main
