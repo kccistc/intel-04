@@ -122,6 +122,22 @@ $ find ./ -iname *.bin|xargs ls -l
 * 발표자료 : https://github.com/wodud6423/Intel-Edge-AI-/tree/main
 
 
+### Team: 쿠크루 (Cupid Crew) - 3조
+<프로젝트 요약>
+
+"Amor Party : AI를 이용한 연애 상담 및 시뮬레이"
+
+* Members
+  | Name | Role |
+  |----|----|
+  | 신나라 | Project lead(프로젝트 관리), UI design  |
+  | 김지훈 | Computer Vision AI modeling, NLP modeling   |
+  | 임지원 | Computer Vision AI modeling, NLP modeling  |
+  | 차창섭 | Project Manager(서비스 기획), UI engineer, AI 모델 검증|
+  
+* Project Github : https://github.com/sournara/Intel-Edge-AI-Project
+* 발표자료 : https://github.com/kccistc/intel-04/blob/main/doc/project/Team3/team3.pdf
+
 
 ### Team:   드가자(드론으로부터 가드하는 자들)  - 4조
 
