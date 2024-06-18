@@ -88,6 +88,7 @@ $ find ./ -iname *.bin|xargs ls -l
 
 ### Team: E-Z Kiosk(가칭) - 2조
 <프로젝트 요약>
+
 "누군가에게는 어려운 키오스크를 누구나 쉽게 사용하는 키오스크로"
 
 * Members
