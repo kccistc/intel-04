@@ -86,3 +86,17 @@ $ find ./ -iname *.bin|xargs ls -l
 * Project Github : https://github.com/goodsense/project_awesome.git
 * 발표자료 : https://github.com/goodsense/project_aewsome/doc/slide.ppt
 
+### Team: 고픈비노 - 6조
+<프로젝트 요약>
+"사용자 인식과 손인식을 통한 모니터 위치 자동 조절"
+* Members
+  | Name | Role |
+  |----|----|
+  | 김기훈 | Project lead(프로젝트 관리), H/W engineer |
+  | 이지원 | AI modeling |
+  | 정희중 | AI modeling |
+  | 최재혁 | H/W engineer |
+* Project Github : https://github.com/KORIDO1234/gopenvino.git
+* 발표자료 : https://github.com/KORIDO1234/gopenvino/tree/main
+
+
