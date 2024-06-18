@@ -86,3 +86,18 @@ $ find ./ -iname *.bin|xargs ls -l
 * Project Github : https://github.com/goodsense/project_awesome.git
 * 발표자료 : https://github.com/goodsense/project_aewsome/doc/slide.ppt
 
+### Team: E-Z Kiosk(가칭) - 2조
+<프로젝트 요약>
+"누군가에게는 어려운 키오스크를 누구나 쉽게 사용하는 키오스크로"
+
+* Members
+  | Name | Role |
+  |----|----|
+  | 염재영 | Project lead(프로젝트 관리), UI design  |
+  | 김기범 | Computer Vision AI modeling, NLP modeling   |
+  | 조원진 | Computer Vision AI modeling, NLP modeling  |
+  | 정용재 | Project Manager(서비스 기획), UI engineer, AI 모델 검증|
+  
+* Project Github : https://github.com/wodud6423/Intel-Edge-AI-.git
+* 발표자료 : https://github.com/wodud6423/Intel-Edge-AI-/tree/main
+
