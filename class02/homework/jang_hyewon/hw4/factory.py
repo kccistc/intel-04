@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-
-import os
 import sys
 import threading
 from argparse import ArgumentParser
@@ -9,7 +6,7 @@ from time import sleep
 
 import cv2
 import numpy as np
-from openvino.inference_engine import IECore
+import openvino as ov
 
 from iotdemo import ColorDetector, FactoryController, MotionDetector
 
@@ -26,11 +23,10 @@ def thread_cam1(q):
     det.load_preset("./resources/motion.cfg", "default")
 
     # Load and initialize OpenVINO model
-    ie = IECore()
-    model_xml = "./resources/model.xml"
-    model_bin = "./resources/model.bin"
-    compiled_model = ie.read_network(model=model_xml, weights=model_bin)
-    model = ie.load_network(network=compiled_model, device_name='CPU')
+    core = ov.Core()
+    model_path = "./resources/model.xml"
+    model = core.read_model(model_path)
+    compiled_model = core.compile_model(model, "CPU")
 
     # Open video clip resources/conveyor.mp4 instead of camera device.
     cap = cv2.VideoCapture('./resources/conveyor.mp4')
@@ -61,19 +57,16 @@ def thread_cam1(q):
         batch_tensor = np.stack(preprocessed_numpy, axis=0)
 
         # Inference using OpenVINO
-        input_blob = next(iter(model.input_info))
-        result = model.infer({input_blob: batch_tensor})
-        predictions = next(iter(result.values()))
-        probs = predictions.reshape(-1)
-        softmax = np.exp(probs) / np.sum(np.exp(probs))
-        x_ratio = softmax[0]
-        circle_ratio = softmax[1]
+        results = compiled_model.infer_new_request({0: batch_tensor})
+        predictions = next(iter(results.values())).reshape(-1)
+        x_ratio = predictions[0]
+        circle_ratio = predictions[1]
 
         # Calculate ratios
         print(f"X = {x_ratio:.2f}%, Circle = {circle_ratio:.2f}%")
 
         # Push actuator 1 if certain conditions are met
-        if x_ratio + circle_ratio > 0:
+        if x_ratio >= circle_ratio:
             q.put(("PUSH", 1))
 
     cap.release()
@@ -124,7 +117,8 @@ def thread_cam2(q):
         print(f"{name}: {ratio:.2f}%")
 
         # Enqueue to handle actuator 2
-        q.put(("PUSH", 2))
+        if name == "blue":
+            q.put(("PUSH", 2))
 
     cap.release()
     q.put(('DONE', None))
@@ -147,9 +141,19 @@ def main():
     """
     global FORCE_STOP
 
-    parser = ArgumentParser(prog='python3 factory.py', description="Factory tool")
+    parser = ArgumentParser(
+        prog='python3 factory.py',
+        description="Factory tool"
+    )
 
-    parser.add_argument("-d", "--device", default=None, type=str, help="Arduino port")
+    parser.add_argument(
+        "-d",
+        "--device",
+        default=None,
+        type=str,
+        help="Arduino port"
+    )
+
     args = parser.parse_args()
 
     # Create a Queue
@@ -175,10 +179,11 @@ def main():
 
             name, data = event
 
-            # Show videos with titles of 'Cam1 live' and 'Cam2 live' respectively.
+            # Show videos with titles of 'Cam1 live'
+            #           and 'Cam2 live' respectively.
             if "VIDEO:" in name:
                 imshow(name[6:], data)
-            elif name == "PUSH":
+            elif "PUSH" in name:
                 ctrl.push_actuator(data)
                 print(name)
             elif name == 'DONE':
