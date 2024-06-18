@@ -10,7 +10,7 @@ from queue import Queue
 
 from cv2 import cv2
 import numpy as np
-from openvino.inference_engine import IECore
+import openvino as ov
 
 from iotdemo import MotionDetector , FactoryController , ColorDetector
 
@@ -26,14 +26,11 @@ def thread_cam1(q):
     det = MotionDetector()
     det.load_preset("./resources/motion.cfg","default")
     # Load and initialize OpenVINO
-    ie = IECore()
-    model_xml = "resources/model.xml"
-    model_bin = "resources/model.bin"
-    net = ie.read_network(model=model_xml, weights=model_bin)
-    exec_net = ie.load_network(network=net, device_name="CPU")
+    core = ov.Core()
+    model = core.read_model('resources/model.xml')
+    compiled_model = core.compile_model(model=model, device_name='CPU')
+    output_layer = compiled_model.output(0)
 
-    input_blob = next(iter(net.input_info))
-    output_blob = next(iter(net.outputs))
     # Open video clip resources/conveyor.mp4 instead of camera device.
     cap = cv2.VideoCapture('./resources/conveyor.mp4')
     #thread1 main
@@ -52,20 +49,24 @@ def thread_cam1(q):
             continue
         # Enqueue "VIDEO:Cam1 detected", detected info.
         q.put(("VIDEO: Cam1 detected", detected))
-        reshaped = detected[:, :, [2, 1, 0]]
-        np_data = np.moveaxis(reshaped, -1, 0)
-        preprocessed_numpy = [((np_data / 255.0) - 0.5) * 2]
-        batch_tensor = np.stack(preprocessed_numpy, axis=0)
 
-        result = exec_net.infer(inputs={input_blob: batch_tensor})
-        output_data = result[output_blob]
-        x_ratio = output_data[0][0]
-        circle_ratio = output_data[0][1]
+        # (1, 3, 224, 224) 형태로 변환
+        image = cv2.cvtColor(detected, cv2.COLOR_BGR2RGB)
+        input_image = cv2.resize(image, (224, 224))
+        input_image = np.moveaxis(input_image, -1, 0)
+        input_image = np.expand_dims(input_image, axis=0)
 
-        print(f"X = {x_ratio:.2f}%, Circle = {circle_ratio:.2f}%")
+        # Inference OpenVINO
+        class_name = ['X', 'Circle']
+        result_infer = compiled_model([input_image])[output_layer][0]
+        result_index = np.argmax(result_infer)
 
-        if x_ratio > circle_ratio:
-            q.put(("PUSH", 1))
+        # Calculate ratios
+        print(f"X = {result_infer[0]:.2f}, Circle = {result_infer[1]:.2f}")
+
+        # in queue for moving the actuator 1
+        if class_name[result_index] == 'X':
+            q.put(('PUSH:1', None))
             print("1")
 
     cap.release()
