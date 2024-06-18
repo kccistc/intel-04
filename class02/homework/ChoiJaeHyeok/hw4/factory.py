@@ -12,7 +12,7 @@ import sys
 
 from cv2 import cv2
 import numpy as np
-from openvino.inference_engine import IECore
+import openvino as ov
 
 from iotdemo import ColorDetector, FactoryController, MotionDetector
 
@@ -26,13 +26,10 @@ def thread_cam1(q):
     det = MotionDetector()
     det.load_preset(path='./resources/motion.cfg',key = "default")
     # Load and initialize OpenVINO
-    ie = IECore()
-    path_to_xml_file = './resources/model.xml'
-    path_to_bin_file = './resources/model.bin'
-    net = ie.read_network(model=path_to_xml_file, weights=path_to_bin_file)
-    exec_net = ie.load_network(network=net, device_name="CPU", num_requests=0)
-    input_blob = next(iter(net.input_info))
-    output_blob = next(iter(net.outputs))
+    core = ov.Core()
+    model = core.read_model('resources/model.xml')
+    compiled_model = core.compile_model(model=model, device_name='CPU')
+    output_layer = compiled_model.output(0)
     # HW2 Open video clip resources/conveyor.mp4 instead of camera device.
     cap = cv2.VideoCapture("./resources/conveyor.mp4")
 
@@ -54,22 +51,22 @@ def thread_cam1(q):
         q.put(("VIDEO:Cam1 detected", detected))
 
         # abnormal detect
-        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        reshaped = detected[:, :, [2, 1, 0]]
-        np_data = np.moveaxis(reshaped, -1, 0)
-        preprocessed_numpy = [((np_data / 255.0) - 0.5) * 2]
-        batch_tensor = np.stack(preprocessed_numpy, axis=0)
+        image = cv2.cvtColor(detected, cv2.COLOR_BGR2RGB)
+        input_image = image[:, :, [2, 1, 0]]
+        input_image = np.moveaxis(input_image, -1, 0)
+        input_image = [((input_image / 255.0) - 0.5) * 2]
+        input_image = np.stack(input_image, axis=0)
 
         # Inference OpenVINO
-        result = exec_net.infer(inputs={input_blob: batch_tensor})
-        predictions = result[output_blob]
-        x_ratio, circle_ratio = predictions[0]
+        result = compiled_model([input_image])[output_layer][0]
+        x_ratio, circle_ratio = result
 
         # Calculate ratios
         print(f"X = {x_ratio:.2f}%, Circle = {circle_ratio:.2f}%")
 
         # in queue for moving the actuator 1
-        q.put(("PUSH", 1))
+        if x_ratio > circle_ratio :
+            q.put(("PUSH", 1))
 
     cap.release()
     q.put(('DONE', None))
@@ -117,7 +114,8 @@ def thread_cam2(q):
         print(f"{name}: {ratio:.2f}%")
 
         # Enqueue to handle actuator 2
-        q.put(("PUSH", 2))
+        if name == 'blue':
+            q.put(("PUSH", 2))
 
     cap.release()
     q.put(('DONE', None))
@@ -194,3 +192,4 @@ if __name__ == '__main__':
         main()
     except ImportError:
         os._exit()
+
