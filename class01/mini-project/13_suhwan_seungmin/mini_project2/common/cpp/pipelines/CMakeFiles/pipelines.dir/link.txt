@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../intel64/Release/libpipelines.a CMakeFiles/pipelines.dir/src/async_pipeline.cpp.o CMakeFiles/pipelines.dir/src/requests_pool.cpp.o
+/usr/bin/ranlib ../../../intel64/Release/libpipelines.a
