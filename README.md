@@ -86,6 +86,26 @@ $ find ./ -iname *.bin|xargs ls -l
 * Project Github : https://github.com/goodsense/project_awesome.git
 * 발표자료 : https://github.com/goodsense/project_aewsome/doc/slide.ppt
 
+
+### Team: I4 - 1조
+<프로젝트 요약>
+
+"냉장고와 스마트폰을 활용한 재료 준비 모바일 애플리케이션"
+
+* Members
+  | Name | Role |
+  |----|----|
+  | 장혜원 | Project lead(프로젝트 관리), UI engineer  |
+  | 강동혁 | Project Manager(서비스 기획), AI 모델 검증   |
+  | 김민정 | Computer Vision AI modeling, UI engineer  |
+  | 유광균 | Computer Vision AI modeling, HW engineer |
+  
+* Project Github : https://github.com/orgs/Intel-I4/repositories 
+* 발표자료 : https://github.com/wodud6423/Intel-Edge-AI-/tree/main
+
+
+
+
 ### Team: E-Z Kiosk(가칭) - 2조
 <프로젝트 요약>
 
@@ -99,26 +119,6 @@ $ find ./ -iname *.bin|xargs ls -l
   | 조원진 | Computer Vision AI modeling, NLP modeling  |
   | 정용재 | Project Manager(서비스 기획), UI engineer, AI 모델 검증|
   
-  
 * Project Github : https://github.com/wodud6423/Intel-Edge-AI-.git
 * 발표자료 : https://github.com/wodud6423/Intel-Edge-AI-/tree/main
 
-### Team:   드가자(드론으로부터 가드하는 자들)  - 4조
-
-<프로젝트 요약>
-
-“카메라와 모터를 활용하여 민간에서도 사용가능한 드론추적시스템을 개발”
-
-* Members
-    
-    
-    | Name | Role |
-    | --- | --- |
-    | 이성우 | Project Lead(프로젝트 관리), Board Support Package(보드 제어)  |
-    | 김민정A | Data Processing , AI 모델 검증 |
-    | 김윤우 | Board Support Package(보드 제어),  Image Processing(영상 처리)  |
-    | 허찬욱  | Project Manager(서비스 기획), Computer Vision AI Modeling |
-    
-
-* Project Github : https://github.com/kyoonw/D-gaja-.git
-* 발표자료 : https://github.com/kyoonw/D-gaja-/tree/main
