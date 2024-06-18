@@ -99,6 +99,26 @@ $ find ./ -iname *.bin|xargs ls -l
   | 조원진 | Computer Vision AI modeling, NLP modeling  |
   | 정용재 | Project Manager(서비스 기획), UI engineer, AI 모델 검증|
   
+  
 * Project Github : https://github.com/wodud6423/Intel-Edge-AI-.git
 * 발표자료 : https://github.com/wodud6423/Intel-Edge-AI-/tree/main
 
+### Team:   드가자(드론으로부터 가드하는 자들)  - 4조
+
+<프로젝트 요약>
+
+“카메라와 모터를 활용하여 민간에서도 사용가능한 드론추적시스템을 개발”
+
+* Members
+    
+    
+    | Name | Role |
+    | --- | --- |
+    | 이성우 | Project Lead(프로젝트 관리), Board Support Package(보드 제어)  |
+    | 김민정A | Data Processing , AI 모델 검증 |
+    | 김윤우 | Board Support Package(보드 제어),  Image Processing(영상 처리)  |
+    | 허찬욱  | Project Manager(서비스 기획), Computer Vision AI Modeling |
+    
+
+* Project Github : https://github.com/kyoonw/D-gaja-.git
+* 발표자료 : https://github.com/kyoonw/D-gaja-/tree/main
