@@ -9,7 +9,7 @@ from argparse import ArgumentParser
 from queue import Queue, Empty
 from time import sleep
 
-import cv2
+from cv2 import cv2
 import numpy as np
 from openvino.runtime import Core
 
@@ -23,14 +23,14 @@ def load_openvino_model(model_xml):
     """
     OpenVINO 모델을 로드하고 컴파일합니다.
     """
-    ie = Core()
-    model = ie.read_model(model=model_xml)
-    compiled_model = ie.compile_model(model=model, device_name='CPU')
+    core = Core()
+    model = core.read_model(model=model_xml)
+    compiled_model = core.compile_model(model=model, device_name='CPU')
     input_layer = compiled_model.input(0)
     output_layer = compiled_model.output(0)
     return compiled_model, input_layer, output_layer
 
-def thread_cam1(q, compiled_model, input_layer, output_layer):
+def thread_cam1(queue, compiled_model, input_layer, output_layer):
     """
     첫 번째 카메라 스레드를 실행합니다. 비디오 스트림을 읽고 모션을 감지하여 큐에 결과를 추가합니다.
     """
@@ -49,13 +49,13 @@ def thread_cam1(q, compiled_model, input_layer, output_layer):
         if frame is None:
             break
 
-        q.put(("VIDEO:Cam1 live", frame))
+        queue.put(("VIDEO:Cam1 live", frame))
 
         detected = motion_detector.detect(frame)
         if detected is None:
             continue
 
-        q.put(("VIDEO:Cam1 detected", detected))
+        queue.put(("VIDEO:Cam1 detected", detected))
 
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         reshaped = detected[:, :, [2, 1, 0]]
@@ -69,13 +69,13 @@ def thread_cam1(q, compiled_model, input_layer, output_layer):
         print(f"X = {x_ratio:.2f}%, Circle = {circle_ratio:.2f}%")
 
         if x_ratio > circle_ratio:
-            q.put(("PUSH", "1"))
+            queue.put(("PUSH", "1"))
 
     cap.release()
-    q.put(('DONE', None))
+    queue.put(('DONE', None))
     sys.exit(1)
 
-def thread_cam2(q):
+def thread_cam2(queue):
     """
     두 번째 카메라 스레드를 실행합니다. 비디오 스트림을 읽고 모션을 감지하여 큐에 결과를 추가합니다.
     """
@@ -97,13 +97,13 @@ def thread_cam2(q):
         if frame is None:
             break
 
-        q.put(("VIDEO:Cam2 live", frame))
+        queue.put(("VIDEO:Cam2 live", frame))
 
         detected = motion_detector.detect(frame)
         if detected is None:
             continue
 
-        q.put(("VIDEO:Cam2 detected", detected))
+        queue.put(("VIDEO:Cam2 detected", detected))
 
         predict = color_detector.detect(detected)
         if not predict or len(predict) == 0:
@@ -114,10 +114,10 @@ def thread_cam2(q):
         print(f"{name}: {ratio:.2f}%")
 
         if name == 'blue':
-            q.put(("PUSH", "2"))
+            queue.put(("PUSH", "2"))
 
     cap2.release()
-    q.put(('DONE', None))
+    queue.put(('DONE', None))
     sys.exit(1)
 
 def imshow(title, frame, pos=None):
@@ -145,23 +145,23 @@ def main():
                         help="Arduino port")
     args = parser.parse_args()
 
-    q = Queue()
+    queue = Queue()
     model_xml = '../homework/jiseung0630/hw3/O_X_Classfication_EfficientNet-V2-S_2/openvino.xml'
     compiled_model, input_layer, output_layer = load_openvino_model(model_xml)
 
-    t1 = threading.Thread(target=thread_cam1, args=(q, compiled_model, input_layer, output_layer))
-    t2 = threading.Thread(target=thread_cam2, args=(q,))
-    t1.start()
-    t2.start()
+    thread1 = threading.Thread(target=thread_cam1, args=(queue, compiled_model, input_layer, output_layer))
+    thread2 = threading.Thread(target=thread_cam2, args=(queue,))
+    thread1.start()
+    thread2.start()
 
-    with FactoryController(args.device) as ctrl:
-        ctrl.system_start()
+    with FactoryController(args.device) as controller:
+        controller.system_start()
         while not FORCE_STOP:
             if cv2.waitKey(10) & 0xff == ord('q'):
                 break
 
             try:
-                name, data = q.get(timeout=1)
+                name, data = queue.get(timeout=1)
             except Empty:
                 continue
 
@@ -175,16 +175,16 @@ def main():
                 imshow('Cam2 detected', data)
             elif name == "PUSH":
                 if data == "1":
-                    ctrl.red = ctrl.red
+                    controller.red = controller.red
                 elif data == "2":
-                    ctrl.orange = ctrl.orange
+                    controller.orange = controller.orange
             elif name == 'DONE':
                 FORCE_STOP = True
-                q.task_done()
+                queue.task_done()
 
-    t1.join()
-    t2.join()
-    ctrl.close()
+    thread1.join()
+    thread2.join()
+    controller.close()
 
     cv2.destroyAllWindows()
 
@@ -193,4 +193,4 @@ if __name__ == '__main__':
         main()
     except KeyboardInterrupt:
         sys.exit(1)
-        
+
