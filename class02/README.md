@@ -31,33 +31,35 @@
 
 ### 제출현황
 
+  * O: 2점 / P: 1점 / X: 0점
+
 | 영문이름 (GitHub id)             | Team No | HW#1 | HW#2 | HW#3 | Final | Reviewer  |
 |----------------------------------|---------|------|------|------|-------|-----------|
-| 01 YouKwangGyun (Dbori12)        | n/a     | P    | -    | P    | -     | JerryJLee |
-| 02 KimMinJeongB (MinJeongB)      | n/a     | O    | -    | O    | -     | JerryJLee |
-| 03 JangHyeWon (Jang-HW)          | n/a     | O    | -    | O    | -     | JerryJLee |
-| 04 KangDongHyuck (DH117117)      | n/a     | X    | -    | P    | -     | JerryJLee |
-| 05 KimGibeom (bluelitma)         | n/a     | O    | -    | P    | -     | JerryJLee |
-| 06 YeomJaeYoung (wodud6423)      | n/a     | O    | -    | O    | -     | JerryJLee |
-| 07 ChaChangSeop (chachangseop)   | n/a     | O    | -    | O    | -     | JerryJLee |
-| 08 LimJiWon (Jday4612)           | n/a     | O    | -    | X    | -     | JerryJLee |
-| 09 KimJiHun (michinnamja)        | n/a     | O    | -    | O    | -     | JerryJLee |
-| 10 ShinNaRa (sournara)           | n/a     | P    | -    | P    | -     | JerryJLee |
-| 11 jowonjin (jowonjin96)         | n/a     | O    | -    | P    | -     | JerryJLee |
-| 12 JungYongJae (eolgaemi)        | n/a     | O    | -    | P    | -     | JerryJLee |
-| 13 KimMinJungA (kmjAA)           | n/a     | O    | -    | O    | -     | JerryJLee |
-| 14 HeoChanUk (HeoChanUk)         | n/a     | O    | -    | P    | -     | JerryJLee |
-| 15 LeeSeongWoo (jwooswoo)        | n/a     | O    | -    | O    | -     | JerryJLee |
-| 16 KimYoonWoo  (KyoonW)          | n/a     | O    | -    | P    | -     | JerryJLee |
-| 17 JiwonLee (chocomilk345)       | n/a     | O    | -    | O    | -     | JerryJLee |
-| 18 ChoiJaeHyeok (JH8765)         | n/a     | O    | -    | O    | -     | JerryJLee |
-| 19 KimGaHyun (hyun222)           | n/a     | X    | -    | X    | -     | JerryJLee |
-| 20 KimJeongDae (jd6286)          | n/a     | O    | -    | P    | -     | JerryJLee |
-| 21 KwonOhjoon (MechanicalCat7)   | n/a     | O    | -    | O    | -     | JerryJLee |
-| 22 LeeYunHyuk (YuNyuk)           | n/a     | O    | -    | P    | -     | JerryJLee |
-| 23 jeongheejung (jhj4748201)     | n/a     | O    | -    | P    | -     | JerryJLee |
-| 24 kimkihoon (korido1234)        | n/a     | O    | -    | P    | -     | JerryJLee |
-| 25 ParkMinHyeok (min-hyeok-Park) | n/a     | O    | -    | X    | -     | JerryJLee |
-| 26 RyuJiSeung  (jiseung0630)     | n/a     | O    | -    | P    | -     | JerryJLee |
-| 27 JoSuHwan (suhwanjo)           | n/a     | O    | -    | O    | -     | JerryJLee |
-| 28 Kimseungmin (seungmimn)       | n/a     | O    | -    | X    | -     | JerryJLee |
+| 01 YouKwangGyun (Dbori12)        | n/a     | O    | -    | O    | P     | JerryJLee |
+| 02 KimMinJeongB (MinJeongB)      | n/a     | O    | -    | O    | O     | JerryJLee |
+| 03 JangHyeWon (Jang-HW)          | n/a     | O    | -    | O    | O     | JerryJLee |
+| 04 KangDongHyuck (DH117117)      | n/a     | X    | -    | P    | X     | JerryJLee |
+| 05 KimGibeom (bluelitma)         | n/a     | O    | -    | O    | X     | JerryJLee |
+| 06 YeomJaeYoung (wodud6423)      | n/a     | O    | -    | O    | X     | JerryJLee |
+| 07 ChaChangSeop (chachangseop)   | n/a     | O    | -    | O    | P     | JerryJLee |
+| 08 LimJiWon (Jday4612)           | n/a     | O    | -    | O    | O     | JerryJLee |
+| 09 KimJiHun (michinnamja)        | n/a     | O    | -    | O    | O     | JerryJLee |
+| 10 ShinNaRa (sournara)           | n/a     | O    | -    | O    | P     | JerryJLee |
+| 11 jowonjin (jowonjin96)         | n/a     | O    | -    | P    | X     | JerryJLee |
+| 12 JungYongJae (eolgaemi)        | n/a     | O    | -    | P    | O     | JerryJLee |
+| 13 KimMinJungA (kmjAA)           | n/a     | O    | -    | O    | P     | JerryJLee |
+| 14 HeoChanUk (HeoChanUk)         | n/a     | O    | -    | P    | P     | JerryJLee |
+| 15 LeeSeongWoo (jwooswoo)        | n/a     | O    | -    | O    | O     | JerryJLee |
+| 16 KimYoonWoo  (KyoonW)          | n/a     | O    | -    | P    | O     | JerryJLee |
+| 17 JiwonLee (chocomilk345)       | n/a     | O    | -    | O    | O     | JerryJLee |
+| 18 ChoiJaeHyeok (JH8765)         | n/a     | O    | -    | O    | O     | JerryJLee |
+| 19 KimGaHyun (hyun222)           | n/a     | X    | -    | X    | X     | JerryJLee |
+| 20 KimJeongDae (jd6286)          | n/a     | O    | -    | P    | P     | JerryJLee |
+| 21 KwonOhjoon (MechanicalCat7)   | n/a     | O    | -    | O    | O     | JerryJLee |
+| 22 LeeYunHyuk (YuNyuk)           | n/a     | O    | -    | O    | X     | JerryJLee |
+| 23 jeongheejung (jhj4748201)     | n/a     | O    | -    | P    | P     | JerryJLee |
+| 24 kimkihoon (korido1234)        | n/a     | O    | -    | P    | P     | JerryJLee |
+| 25 ParkMinHyeok (min-hyeok-Park) | n/a     | O    | -    | X    | P     | JerryJLee |
+| 26 RyuJiSeung  (jiseung0630)     | n/a     | O    | -    | P    | O     | JerryJLee |
+| 27 JoSuHwan (suhwanjo)           | n/a     | O    | -    | O    | P     | JerryJLee |
+| 28 Kimseungmin (seungmimn)       | n/a     | O    | -    | X    | P     | JerryJLee |
