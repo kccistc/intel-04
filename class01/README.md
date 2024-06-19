@@ -80,7 +80,7 @@
 * Team 06: ["GestureTalk"](mini-project/06_LJW_CCS/README.md)
 * Team 07: ["CountingCars"](mini-project/07_Chanuk,Nara/README.md)
 * Team 08: ["황야의 무법자 - 영희"](mini-project/08_seongwoo,yoonwoo/README.md)
-* Team 09:
+* Team 09: ["Hand Voice"](mini-project/09_jhj_kkh/README.md)
 * Team 10: ["똥손 금손"](mini-project/team10/README.md)
 * Team 11:
 * Team 12:
