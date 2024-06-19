@@ -189,3 +189,19 @@ $ find ./ -iname *.bin|xargs ls -l
 * Project Github : https://github.com/KORIDO1234/gopenvino.git
 * 발표자료 : https://github.com/KORIDO1234/gopenvino/tree/main
 
+### Team: 가오가이거 - 7조
+
+<프로젝트 요약>
+”벤치프레스 사고 예방 알림 시스템"
+
+- Members
+    
+    
+    | Name | Role |
+    | --- | --- |
+    | 김정대 | Project lead(프로젝트 관리), 프로젝트를 총괄 |
+    | 권오준 | AI modeling, UI designer |
+    | 이윤혁 | AI modeling, H/W engineer |
+- Project Github : https://github.com/jd6286/openvino_project
+- 발표자료 : 추후 작성
+
