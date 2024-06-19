@@ -1,22 +1,22 @@
-# Project ABC
+# D-gaja
 
 * (간략히 프로젝트를 설명하고, 최종 목표가 무엇인지에 대해 기술)
 
 ## High Level Design
+![image](https://github.com/kyoonw/D-gaja/assets/169637084/314f441b-72fb-4a20-bd46-a6295f902bf9)
 
-* (프로젝트 아키텍쳐 기술, 전반적인 diagram 으로 설명을 권장)
 
 ## Clone code
 
-* (각 팀에서 프로젝트를 위해 생성한 repository에 대한 code clone 방법에 대해서 기술)
+* github를 통한 코드 공유 
 
 ```shell
-git clone https://github.com/xxx/yyy/zzz
+git clone https://github.com/kyoonw/D-gaja.git
 ```
 
 ## Prerequite
 
-* (프로잭트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
+* requirements.txt를 통해 파이썬 환경설치
 
 ```shell
 python -m venv .venv
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ## Steps to build
 
-* (프로젝트를 실행을 위해 빌드 절차 기술)
+* pc가상환경을 통해 testbuild 후 board-depoly
 
 ```shell
 cd ~/xxxx
@@ -38,7 +38,7 @@ make install
 
 ## Steps to run
 
-* (프로젝트 실행방법에 대해서 기술, 특별한 사용방법이 있다면 같이 기술)
+* pc가상환경을 통해 test build 후 board-depoly
 
 ```shell
 cd ~/xxxx
