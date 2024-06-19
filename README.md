@@ -125,7 +125,7 @@ $ find ./ -iname *.bin|xargs ls -l
 ### Team: 쿠크루 (Cupid Crew) - 3조
 <프로젝트 요약>
 
-"Amor Party : AI를 이용한 연애 상담 및 시뮬레이"
+"OpenVINO를 이용한 홈트레이닝"
 
 * Members
   | Name | Role |
