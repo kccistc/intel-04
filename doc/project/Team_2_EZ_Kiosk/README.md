@@ -4,7 +4,14 @@
 
 ## High Level Design
 
-![./result.png](./result.png)
+### Use Case Diagram
+![./Documents/04_2조_Use_Case_Diagram.png](./Documents/04_2조_Use_Case_Diagram.png)
+
+### Flow Chart
+![./Documents/05_2조_순서도.png](./Documents/05_2조_순서도.png)
+
+### UI Demo
+![./Documents/06_2조_UI_Demo.png](./Documents/06_2조_UI_Demo.png)
 
 ## Clone code
 
