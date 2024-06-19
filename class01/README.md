@@ -74,13 +74,14 @@
 
 * Team 01: ["지하철 역내 시각장애인, 노약자 길안내 카메라"](mini-project/01_KDH_JHW/README.md)
 * Team 02: ["음성 인식 및 응답 AI 시스템"](mini-project/02_kim_yeom/README.md)
-* Team 03:
+* Team 03: ["요린이를 위한 요리 준비 도우미"](mini-project/03_kmjb_ykg/README.md)
 * Team 04: ["Estimating the gaze of cigarette purchasing customers"](mini-project/04_Mini_Project_JWJ_JYJ/README.md)
-* Team 05:
+* Team 05: ["분노조절잘해"](mini-project/05_cjh_ljw/README.md)
 * Team 06: ["GestureTalk"](mini-project/06_LJW_CCS/README.md)
 * Team 07: ["CountingCars"](mini-project/07_Chanuk,Nara/README.md)
 * Team 08: ["황야의 무법자 - 영희"](mini-project/08_seongwoo,yoonwoo/README.md)
-* Team 09:
+* Team 09: ["Hand Voice"](mini-project/09_jhj_kkh/README.md)
 * Team 10: ["똥손 금손"](mini-project/team10/README.md)
-* Team 11:
+* Team 11: ["애니메이션 캐릭터가 되어보자"](mini-project/11_kimjihun/README.md)
 * Team 12:
+
