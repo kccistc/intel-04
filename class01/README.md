@@ -84,3 +84,4 @@
 * Team 10: ["똥손 금손"](mini-project/team10/README.md)
 * Team 11: ["애니메이션 캐릭터가 되어보자"](mini-project/11_kimjihun/README.md)
 * Team 12: ["알려줄카"](mini-project/12_PMH_RJS/README.md)
+* Team 13: ["요약해VOCA"](mini-project/13_suhwan_seungmin/README.md)
