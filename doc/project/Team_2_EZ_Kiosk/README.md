@@ -10,6 +10,9 @@
 ### Flow Chart
 ![./Documents/05_2조_순서도.png](./Documents/05_2조_순서도.png)
 
+### Gantt Chart
+![./Documents/07_2조_간트차트.png](./Documents/07_2조_간트차트.png)
+
 ### UI Demo
 ![./Documents/06_2조_UI_Demo.png](./Documents/06_2조_UI_Demo.png)
 
