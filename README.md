@@ -95,10 +95,10 @@ $ find ./ -iname *.bin|xargs ls -l
 * Members
   | Name | Role |
   |----|----|
-  | 장혜원 | Project lead(프로젝트 관리), UI engineer  |
-  | 강동혁 | Project Manager(서비스 기획), AI 모델 검증   |
-  | 김민정 | Computer Vision AI modeling, UI engineer  |
-  | 유광균 | Computer Vision AI modeling, HW engineer |
+  | 장혜원 | Project lead(프로젝트 관리), DB engineer, UI engineer  |
+  | 강동혁 | Project Manager(서비스 기획), UI engineer   |
+  | 김민정 | Computer Vision AI modeling |
+  | 유광균 | Computer Vision AI modeling |
   
 * Project Github : https://github.com/orgs/Intel-I4/repositories 
 * 발표자료 : https://github.com/wodud6423/Intel-Edge-AI-/tree/main
