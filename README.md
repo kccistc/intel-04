@@ -87,21 +87,21 @@ $ find ./ -iname *.bin|xargs ls -l
 * 발표자료 : https://github.com/goodsense/project_aewsome/doc/slide.ppt
 
 
-### Team: I4 - 1조
+### Team: 쿡포유 (cook for you) - 1조
 <프로젝트 요약>
 
-"냉장고와 스마트폰을 활용한 재료 준비 모바일 애플리케이션"
+"냉장고에 있는 재료에 맞춘 레시피의 추천과 레시피를 알려주는 프로그램"
 
 * Members
   | Name | Role |
   |----|----|
-  | 장혜원 | Project lead(프로젝트 관리), DB engineer, UI engineer  |
-  | 강동혁 | Project Manager(서비스 기획), UI engineer   |
-  | 김민정 | Computer Vision AI modeling |
+  | 장혜원 | Project Leader, DB engineer, UI engineer  |
+  | 강동혁 | UI engineer   |
+  | 김민정 | OCR AI modeling, Project Manager |
   | 유광균 | Computer Vision AI modeling |
   
-* Project Github : https://github.com/orgs/Intel-I4/repositories 
-* 발표자료 : https://github.com/wodud6423/Intel-Edge-AI-/tree/main
+* Project Github : https://github.com/Intel-I4/ingredient_check
+* 발표자료 : https://github.com/kccistc/intel-04/blob/main/doc/project/Team_I4/I4-presentation.pptx
 
 
 
