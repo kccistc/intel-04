@@ -101,7 +101,7 @@ $ find ./ -iname *.bin|xargs ls -l
   | 유광균 | Computer Vision AI modeling |
   
 * Project Github : https://github.com/Intel-I4/ingredient_check
-* 발표자료 : https://github.com/kccistc/intel-04/blob/main/doc/project/Team_I4/I4-presentation.pptx
+* 발표자료 : https://github.com/kccistc/intel-04/blob/main/doc/project/Team_I4/recipe_for_yolin.pdf
 
 
 
