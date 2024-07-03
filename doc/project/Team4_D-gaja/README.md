@@ -1,9 +1,26 @@
-# D-gaja
+# DTS (Drone Tracking System)
 
-* (간략히 프로젝트를 설명하고, 최종 목표가 무엇인지에 대해 기술)
+군사용 Anti-Drone System은 존재하는데, 민간용은 존재하지 않아서 저렴한 Anti-Drone System 제작을 목표로 설정했다. 
 
-## High Level Design
-![image](https://github.com/kyoonw/D-gaja/assets/169637084/314f441b-72fb-4a20-bd46-a6295f902bf9)
+
+드론에 피해를 입히면 범죄에 휘말릴 수 있기 때문에 카메라를 활용해 드론 객체를 추적하여 경찰에 알려주는 시스템을 개발하는 것이 목표이다.
+
+
+
+## System Diagram
+![image](https://github.com/kyoonw/D-gaja/assets/170689181/0f8e5abe-79e4-4a28-97df-f8174818dc20)
+
+
+## Flow Chart
+![image](https://github.com/kyoonw/D-gaja/assets/170689181/a07804d7-750b-40c4-a8f1-22bb975f5341)
+
+
+## Circuit Diagram
+![image](https://github.com/kyoonw/D-gaja/assets/170689181/02a2f16f-0451-436e-970c-399432458d4d)
+
+
+## ProJect Schedule
+![image](https://github.com/kyoonw/D-gaja/assets/170689181/249d19c5-d74f-4213-bc66-d2c0765f6dba)
 
 
 ## Clone code
@@ -24,36 +41,27 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Steps to build
-
-* pc가상환경을 통해 testbuild 후 board-depoly
-
-```shell
-cd ~/xxxx
-source .venv/bin/activate
-
-make
-make install
-```
-
 ## Steps to run
 
-* pc가상환경을 통해 test build 후 board-depoly
+*PC서버 작동
 
 ```shell
-cd ~/xxxx
-source .venv/bin/activate
-
-cd /path/to/repo/xxx/
-python demo.py -i xxx -m yyy -d zzz
+cd ~/main
+python3 server.py
+```
+*보드내에서 작동 
+```shell
+cd ~/main
+python3 board.py
 ```
 
 ## Output
+* 제품 외관
+![image (1)](https://github.com/kyoonw/D-gaja/assets/88040637/836c15e8-a656-4366-807f-c4fff6e9aca8)
 
-* (프로젝트 실행 화면 캡쳐)
-
-![./result.jpg](./result.jpg)
+* 제품 작동 
+![image](https://github.com/kyoonw/D-gaja/assets/170689181/afcd1fee-880e-4435-8ec4-a44f15ed67f1)
 
 ## Appendix
 
-* (참고 자료 및 알아두어야할 사항들 기술)
+* [(참고 자료 및 알아두어야할 사항들 기술)](https://github.com/kyoonw/D-gaja)
