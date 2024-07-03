@@ -187,7 +187,7 @@ $ find ./ -iname *.bin|xargs ls -l
   | 최재혁 | H/W engineer |
 
 * Project Github : https://github.com/KORIDO1234/gopenvino.git
-* 발표자료 : https://github.com/KORIDO1234/gopenvino/tree/main
+* 발표자료 : https://github.com/kccistc/intel-04/blob/main/doc/project/team_6/gopenvino_project.pdf
 
 ### Team: 가오가이거 - 7조
 
