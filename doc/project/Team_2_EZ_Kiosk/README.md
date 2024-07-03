@@ -4,17 +4,20 @@
 
 ## High Level Design
 
-### Use Case Diagram
-![./Documents/04_2조_Use_Case_Diagram.png](./Documents/04_2조_Use_Case_Diagram.png)
+### Service Chart
+![Screenshot from 2024-07-03 09-49-38](https://github.com/kccistc/intel-04/assets/165994180/287f0c7d-5ebf-447b-8f07-e2b71b089dbc)
 
-### Flow Chart
-![./Documents/05_2조_순서도.png](./Documents/05_2조_순서도.png)
 
 ### Gantt Chart
-![./Documents/07_2조_간트차트.png](./Documents/07_2조_간트차트.png)
+![Screenshot from 2024-07-03 14-09-12](https://github.com/kccistc/intel-04/assets/165994180/68d57c1b-436c-4842-8f52-349884fd4df9)
 
-### UI Demo
-![./Documents/06_2조_UI_Demo.png](./Documents/06_2조_UI_Demo.png)
+### Tech Stack
+![Screenshot from 2024-07-03 09-53-36](https://github.com/kccistc/intel-04/assets/165994180/502f24d3-2c6b-4d59-a069-c5824f7ecf4c)
+
+
+### UI
+![Screenshot from 2024-07-03 09-55-35](https://github.com/kccistc/intel-04/assets/165994180/1cb4a4d6-0776-48b0-b641-9c92e2edfa5b)
+
 
 ## Clone code
 
