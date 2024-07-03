@@ -1,59 +1,64 @@
-# Project ABC
+# GOPENVINO
+AI를 이용한 스마트 모니터 제어 시스템
 
-* (간략히 프로젝트를 설명하고, 최종 목표가 무엇인지에 대해 기술)
+## 개발 계획 (gantt chart)
+![image](https://github.com/KORIDO1234/gopenvino/assets/163944814/e454eda1-6352-4a7b-809d-7e9db79846fb)
+
 
 ## High Level Design
+* flow chart
+![poster](./flowchart.jpg)
 
-* (프로젝트 아키텍쳐 기술, 전반적인 diagram 으로 설명을 권장)
+* 아키텍쳐
+![poster](./architecture.png)
 
 ## Clone code
-
-* (각 팀에서 프로젝트를 위해 생성한 repository에 대한 code clone 방법에 대해서 기술)
-
-```shell
-git clone https://github.com/xxx/yyy/zzz
+```
+git clone https://github.com/KORIDO1234/gopenvino.git
 ```
 
 ## Prerequite
 
-* (프로잭트를 실행하기 위해 필요한 dependencies 및 configuration들이 있다면, 설치 및 설정 방법에 대해 기술)
-
-```shell
-python -m venv .venv
+### desktop 설정
+1. clone한 폴더로 이동
+```
+cd ./gopoenvino
+```
+2. 가상 환경 생성 (python 버전 3.10.12
+```
+python3 -m venv .venv
+```
+3. 가상 환경 실행
+```
 source .venv/bin/activate
+```
+4. 요구 패키지 설치
+```
 pip install -r requirements.txt
 ```
 
+### H/W 설정
+1. arduino UNO에 code.ino 업로드
+
 ## Steps to build
-
-* (프로젝트를 실행을 위해 빌드 절차 기술)
-
-```shell
-cd ~/xxxx
+* 가상환경 활성화
+```
 source .venv/bin/activate
-
-make
-make install
 ```
 
 ## Steps to run
-
-* (프로젝트 실행방법에 대해서 기술, 특별한 사용방법이 있다면 같이 기술)
-
-```shell
-cd ~/xxxx
-source .venv/bin/activate
-
-cd /path/to/repo/xxx/
-python demo.py -i xxx -m yyy -d zzz
+* src 폴더로 이동 후 메인파일 실행
 ```
-
+cd ./src/desktop
+python face_recog_arduino.py
+```
+* 오류 발생 시 face_recog_arduino.py 아두이노 포트 번호, 이미지파일 경로, json파일 경로, 모델 경로 확인
 ## Output
+1. 대기중
+![poster](./output1.png)
 
-* (프로젝트 실행 화면 캡쳐)
+2. 자동 조정 중
+![poster](./output2.png)
 
-![./result.jpg](./result.jpg)
-
-## Appendix
-
-* (참고 자료 및 알아두어야할 사항들 기술)
+3. 수동 조정 중
+![poster](./output3.png)
