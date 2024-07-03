@@ -203,5 +203,5 @@ $ find ./ -iname *.bin|xargs ls -l
     | 권오준 | AI modeling, UI designer |
     | 이윤혁 | AI modeling, H/W engineer |
 - Project Github : https://github.com/jd6286/openvino_project
-- 발표자료 : 추후 작성
+- 발표자료 : https://github.com/kccistc/intel-04/doc/project/Team_7/Team_가오가이거.pdf
 
