@@ -173,7 +173,7 @@ $ find ./ -iname *.bin|xargs ls -l
   | 조수환 | AI modeling, System integration |
 
 * Project Github : https://github.com/suhwanjo/Intel-Eged-AI-Project.git
-* 발표자료 : https://github.com/wodud6423/Intel-Edge-AI-/tree/main
+* 발표자료 : https://github.com/kccistc/intel-04/tree/main/doc/project/team_5
 
 ### Team: 고픈비노 - 6조
 <프로젝트 요약>
